@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as V from 'victory';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import './App.scss';
+import TestReport from './components/test-report/test-report';
+
+
+class App extends React.Component {
+
+
+  render() {
+    return (
+      <div className="App">
+        <TestReport/>
+      </div>
+    );
+  }
 }
 
 export default App;
