@@ -1,0 +1,25 @@
+.sidebar-container{
+    padding: 1rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+
+    justify-content: space-between;
+
+
+    .sidebar-item{
+        margin-bottom: 5rem;
+    }
+
+    .logo{
+        font-weight: 600;
+    }
+
+    .menu{
+        font-size: 0.9em;
+        color: #e5eeec;
+    }
+    
+}

@@ -1,9 +1,12 @@
 import React from 'react';
-import * as V from 'victory';
+
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 import './App.scss';
-import TestReport from './components/test-report/test-report';
+
+import BaseContainer from './components/layouts/base-container/base.component';
 
 
 class App extends React.Component {
@@ -12,7 +15,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <TestReport/>
+
+        <BrowserRouter>
+          <BaseContainer />
+        </BrowserRouter>
+
       </div>
     );
   }

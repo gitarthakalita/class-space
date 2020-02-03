@@ -1,7 +1,7 @@
 import React from 'react';
 // import * as V from 'victory';
 import { VictoryBar, VictoryChart, VictoryAxis , VictoryTheme,
-        VictoryStack } from 'victory';
+        VictoryStack, VictoryLegend } from 'victory';
 
 
 
@@ -35,6 +35,7 @@ const data2015 = [
 ];
 
 
+
 class TestReport extends React.Component {
 
 
@@ -43,9 +44,20 @@ class TestReport extends React.Component {
       <div className="test-report-container">
         <VictoryChart
           domainPadding={25}
-          
+          height={320}
+          width={500}
           theme={VictoryTheme.material}
           >
+
+<VictoryLegend
+                x={125} y={15}
+                // title="Legend"
+                orientation="horizontal"
+                gutter={10}
+                colorScale={"cool"}
+                data={[{name:"2012"},{name:"2013"},{name:"2014"},{name:"2015"}]}
+            />
+
 
             <VictoryAxis
               tickValues={[1,2,3,4]}
@@ -57,7 +69,7 @@ class TestReport extends React.Component {
             tickFormat={(x) => (`${x/1000}%`)}
           />
           <VictoryStack
-            colorScale={"green"}
+            colorScale={"cool"}
           >
           <VictoryBar
               data={data2012}

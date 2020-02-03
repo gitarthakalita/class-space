@@ -1,0 +1,57 @@
+.framework-view-container {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+
+
+    .learning-framework-container {
+        height: 20rem;
+
+        background: #F9FAFD;
+
+        box-shadow: 0 0 0.25rem rgb(180, 177, 177);
+
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: space-between;
+
+        .header-img {
+            height: 12rem;
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+
+
+
+        button {
+            background: transparent;
+            padding: 0.5rem 2rem;
+
+            box-shadow: 0 0.15rem 0.05rem rgb(226, 240, 235);
+
+            outline: none;
+
+            border: none;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    }
+
+
+
+}

@@ -1,0 +1,51 @@
+.task-container{
+
+    display: grid;
+    padding: 1rem;
+
+    margin: 1rem 0;
+
+    box-shadow: 0 0.15rem 0.25rem rgb(227, 232, 235);
+
+    min-height: 5rem;
+
+    grid-template-columns: [c1]8fr [c2] 2fr[c3];
+    grid-template-rows: [r1]1fr [r2] 1fr [r3];
+
+    gap: 2.5rem;
+
+
+    .title{
+        grid-row-start: r1;
+        grid-row-end: r3;
+
+        line-height: 1.6rem;
+    }
+
+    .details , .submit {
+        text-transform: uppercase;
+        font-weight: 400;
+
+        color: rgb(114, 133, 145);
+    }
+
+    button{
+        background: transparent;
+        padding: 0.25rem 0;
+
+        box-shadow: 0 0.15rem 0.05rem rgb(226, 240, 235);
+
+        outline: none;
+
+        border: none;
+
+        cursor: pointer;
+
+        height:2.4rem;
+
+    }
+
+    button:hover{
+        transform: scale(1.05);
+    }
+}
