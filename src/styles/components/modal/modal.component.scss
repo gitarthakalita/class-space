@@ -1,11 +1,38 @@
 .modal-container{
 
-    padding: 5rem;
-   
+    padding:2rem 5rem;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
     
-   
+    justify-content: space-evenly;
+    
+   .hints{
+       font-weight: 600;
+   }
 }
 
+.file-upload{
+
+    input{
+        background: transparent;
+
+        border: 0.1rem  dashed  #d0d8dd;
+
+        padding: 0.5rem;
+
+        width: 100%;
+     
+    }
+
+
+    button{
+        width: 10rem;
+        margin-top: 1rem;
+    }
+}
 
 .show{
     display: block;  
@@ -42,7 +69,7 @@
     font-family: Helvetica, Arial, sans-serif;
   }
   
-  .modal button {
+  .modal .close-btn {
     position: absolute;
     right: 0rem;
     top: 0rem;

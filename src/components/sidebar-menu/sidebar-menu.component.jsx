@@ -12,7 +12,9 @@ const SidebarMenuComponent = () => (
         <Link to='/course-curriculum'>
             <div className="sidebar-menu-item ">Course Curriculum</div>
         </Link>
-        <div className="sidebar-menu-item ">Time-Table</div>
+        <Link to='/time-table'>
+        <div className="sidebar-menu-item ">Time-table</div>
+        </Link>
         <div className="sidebar-menu-item ">Resource Hub</div>
         <div className="sidebar-menu-item ">Resource Creator </div>
         <div className="sidebar-menu-item ">Student Records  </div>

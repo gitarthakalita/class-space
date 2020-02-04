@@ -8,11 +8,18 @@ const ModalComponent = (props) => {
 
         <div className={show ? "overlay" : "hide"}>
             <div className={show ? "modal" : "hide"}>
-                <button onClick={closeModal}>X</button>
-                <div className="modal-container "> 
-                    <div className="modal-item">Upload your Assignment in any one format: .pdf, .doc, .zip etc</div>
-                    <div className="modal-item"></div>
-                    <div className="modal-item"></div>
+                <button className="close-btn" onClick={closeModal}>X</button>
+                <div className="modal-container ">
+                    <div className="modal-item hints">Upload your Assignment in any one format: .pdf, .doc, .zip etc</div>
+                    <div className="modal-item file-upload">
+                        <input type="file" name="taskFile" />
+                        <button>Upload</button>
+                    </div>
+                    <div className="modal-item">
+                      
+
+
+                    </div>
 
 
                 </div>

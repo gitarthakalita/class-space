@@ -1,25 +1,35 @@
 import React from 'react';
 
-class TimeTableContainer extends React.Component {
+class TimetableContainer extends React.Component {
 
-    constructor(){
+    constructor() {
         super();
 
-        this.state= {
+        this.state = {
 
         }
     };
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="time-table-container">
-                <p>
-                    Hello This is where we write about the Time Table in details.
-                </p>
+                <div className="header time-header">
+                    <div className="heading">
+                        Time table : Computer Science and Engineering (course 6-3)
+                   </div>
+                    <div>
+                        <p>
+                            Department of Electrical Engineering and Computer Science
+                   </p>
+                        <p>
+                            Batchelor of Science in Computer Science and Engineering
+                   </p>
+                    </div>
+                </div>
+                <div className="time-table">
 
-               <div className="time-table">
 
-               </div>
+                </div>
 
 
             </div>
@@ -28,4 +38,4 @@ class TimeTableContainer extends React.Component {
 }
 
 
-export default TimeTableContainer;
+export default TimetableContainer;

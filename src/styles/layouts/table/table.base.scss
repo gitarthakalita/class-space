@@ -1,0 +1,46 @@
+table{
+    padding: 5rem;
+
+    border-top: 0.01rem solid rgb(116, 116, 116);
+    border-bottom: 0.01rem solid rgb(116, 116, 116);
+
+    width: 100%;
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+thead{
+    padding: 1rem;
+}
+tbody{
+    display: table-row-group;
+
+    
+}
+
+tr{
+    
+    display: table-row;
+
+    height: 3rem;
+
+    
+
+    
+}
+
+
+
+td{
+    padding: 1rem;
+}
+
+// .thead-left{
+//     float: left;
+// }
+
+// .thead-right{
+//     float: right;
+// }

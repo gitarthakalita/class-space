@@ -64,3 +64,19 @@
     }
     }
 }
+
+
+.profile{
+    border-radius: 50% ;
+    margin: 0 1rem;
+
+    width: 2.2rem;
+    height: 2.2rem;
+
+    border:0.1rem solid rgb(255, 255, 255);
+
+    background: url("https://firebasestorage.googleapis.com/v0/b/classspace-eb69a.appspot.com/o/profile.png?alt=media&token=13e054b1-3d77-4f18-ace2-e368fe22547f");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}

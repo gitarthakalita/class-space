@@ -1,5 +1,5 @@
 import React from 'react';
-import TestReport from '../../test-report/test-report';
+import Testreport from '../../test-report/test-report';
 import ActivityGraph from '../../activity-graph/activity-graph';
 
 import TaskViewContainer from '../../../containers/task-view/task-view.container';
@@ -10,7 +10,7 @@ const SectionComponent = () => (
         <div className="section-item activity-graph ">Activity Graph
 
         <div className="activity-item">
-        <TestReport/>
+        <Testreport/>
         <ActivityGraph/>
         </div>
         

@@ -21,4 +21,25 @@ a{
 }
 
 
+.header{
+    height: 18rem;
+    margin-bottom: 1rem;
+    padding: 2rem 5rem;
+
+    border-radius: 0.25rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    .heading{
+        font-size: 2em;
+
+        text-transform: uppercase;
+    }
+}
+
+
+
 @import "./styles/main.scss";

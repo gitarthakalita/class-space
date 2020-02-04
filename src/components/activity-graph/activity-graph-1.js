@@ -1,6 +1,6 @@
 import React from 'react';
 // import * as V from 'victory';
-import { VictoryChart, VictoryAxis , VictoryTheme,
+import { VictoryChart, VictoryAxis , Victorytheme,
         VictoryStack, 
         VictoryLine,
         VictoryLegend} from 'victory';
@@ -33,7 +33,7 @@ class ActivityGraph1 extends React.Component {
           height={300}
          
           
-          theme={VictoryTheme.material}
+          theme={Victorytheme.material}
           >
             <VictoryLegend
                 x={125} y={15}

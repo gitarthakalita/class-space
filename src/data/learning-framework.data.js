@@ -19,7 +19,7 @@ const LEARNING_FRAMEWORK_DATA = [
     {
         framework_id: 4,
         framework_image_url: "https://firebasestorage.googleapis.com/v0/b/classspace-eb69a.appspot.com/o/classspace4.svg?alt=media&token=944eabdc-1097-472c-9a28-ee6b02c17036",
-        framework_title: "CS215 Graph Theory Preparation Framework"
+        framework_title: "CS215 Graph theory Preparation Framework"
     }
 ]
 
