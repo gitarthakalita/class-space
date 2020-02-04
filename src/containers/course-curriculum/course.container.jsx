@@ -19,7 +19,7 @@ class CourseContainer extends React.Component {
                    </div>
                     <div>
                         <p>
-                            Department of Electrical Engineering and Computer Science
+                            Department of Electrical Engineering and Computer Science, MIT
                    </p>
                         <p>
                             Batchelor of Science in Computer Science and Engineering

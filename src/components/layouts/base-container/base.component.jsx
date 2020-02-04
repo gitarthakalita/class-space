@@ -7,6 +7,7 @@ import CourseContainer from '../../../containers/course-curriculum/course.contai
 import TimetableContainer from '../../../containers/time-table/time-table.container';
 import SignInComponent from '../../../containers/sign-in/sign-in.container';
 import SignUpComponent from '../../../containers/sign-up/sign-up.container';
+import ResourceHubContainer from '../../../containers/resource-hub/resource-hub.container';
 
 const BaseContainer = () => (
 
@@ -49,6 +50,8 @@ const BaseContainer = () => (
                 <Route path='/time-table' component={TimetableContainer} />
                 <Route path='/sign-in' component={SignInComponent} />
                 <Route path='/sign-up' component={SignUpComponent} />
+
+                <Route path='/resource-hub' component={ResourceHubContainer} />
             </Switch>
             
         </div>
