@@ -54,6 +54,8 @@ class BaseContainer extends React.Component {
 
             <div className="base-container">
 
+                
+
 
 
                 <div className="base-item sidebar ">
@@ -64,6 +66,7 @@ class BaseContainer extends React.Component {
 
 
                 <div className="base-item section ">
+                    
                     <div className="navbar">
 
                         <Link to='/sign-in'>
@@ -103,7 +106,10 @@ class BaseContainer extends React.Component {
 
                     </div>
 
+                    
+
                     <Switch>
+                        
                         <Route exact path='/' component={SectionComponent} />
                         <Route path='/course-curriculum' component={CourseContainer} />
                         <Route path='/time-table' component={TimetableContainer} />

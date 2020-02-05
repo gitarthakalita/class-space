@@ -1,7 +1,8 @@
-import React from "react";
+import React , {useState} from "react";
 
 
 const ResourceCreatorContainer = () => {
+
 
 
     return (
@@ -23,7 +24,7 @@ const ResourceCreatorContainer = () => {
 
             <div className='rsc-creator'>
                 <div className="rsc-creator-item">
-                    <form className="form-control">
+                    <div className="form-control" >
                         <div className="form-group">
                             <label >Resource Title :  </label>
                             <input type="text" name="resource title"></input>
@@ -50,11 +51,11 @@ const ResourceCreatorContainer = () => {
 
                         <div className="form-group btn-mid">
                            
-                            <button type="submit" name="resource title">Submit</button>
+                            <button  name="resource title">Submit</button>
                         </div>
 
 
-                    </form>
+                    </div>
 
                 </div>
 

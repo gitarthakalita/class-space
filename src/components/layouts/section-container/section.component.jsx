@@ -7,6 +7,8 @@ import LearningFrameworkViewContainer from '../../../containers/learning-framewo
 
 const SectionComponent = () => (
     <div className="section-container">
+       
+
         <div className="section-item activity-graph ">Activity Graph
 
         <div className="activity-item">
@@ -25,6 +27,8 @@ const SectionComponent = () => (
             
         
         </div>
+
+        
     </div>
 )
 
