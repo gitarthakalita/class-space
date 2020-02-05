@@ -15,11 +15,11 @@ const SignUpComponent = () => {
 
             <div className="sign-item description">Sign Up to get access to all the features and resources </div>
             <div className="sign-item">
-                <button className="s-btn gbtn">Sign In With Google</button>
+                <button className="s-btn gbtn">Sign Up With Google</button>
 
             </div>
             <div className="sign-item ">
-                <button className="s-btn fbtn">Sign In With Facebook</button>
+                <button className="s-btn fbtn">Sign Up With Facebook</button>
 
             </div>
 

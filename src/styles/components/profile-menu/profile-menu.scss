@@ -1,0 +1,43 @@
+.profile-menu-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    height: 25rem;
+
+    width: 10rem;
+
+    position: absolute;
+
+    top: 3rem;
+    right: 10%;
+
+
+    background: #fff;
+
+
+    padding: 0.5rem 2rem;
+
+
+    border-radius: 0.2rem;
+
+    box-shadow: 0 0.15rem 0.25rem rgb(211, 211, 211);
+
+
+    .profile-menu-item{
+        cursor: pointer;
+    }
+
+    .profile-menu-item:hover{
+        color: #4FD276 ;
+    }
+
+
+}
+
+
+
+.profile{
+    cursor: pointer;
+}

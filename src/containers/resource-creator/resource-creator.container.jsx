@@ -4,13 +4,64 @@ import React from "react";
 const ResourceCreatorContainer = () => {
 
 
-    return(
+    return (
         <div className="resource-creator-container">
-            <p>Hello this is Resource Creator page</p>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,32L40,53.3C80,75,160,117,240,149.3C320,181,400,203,480,213.3C560,224,640,224,720,218.7C800,213,880,203,960,208C1040,213,1120,235,1200,250.7C1280,267,1360,277,1400,282.7L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+
+            <div className="header resource-creator-header">
+
+                <div className="heading">
+                    Resource Creator
+                   </div>
+                <div>
+                    <p>
+                        Create resources in the ClassSpace Ecosystem in these content types : Video Contents, Inforgaphics, Ebooks, Notes, Slides.
+                   </p>
+
+                </div>
+            </div>
+
+            <div className='rsc-creator'>
+                <div className="rsc-creator-item">
+                    <form className="form-control">
+                        <div className="form-group">
+                            <label >Resource Title :  </label>
+                            <input type="text" name="resource title"></input>
+                        </div>
+                        <div className="form-group">
+                            <label >Resource Description :  </label>
+                            <textarea type="text" name="resource title"></textarea>
+                        </div>
+                        <div className="form-group">
+                            <label >Resource Content Category :  </label>
+                            <select type="dropdown" name="resource content category ">
+                                <option value="Ebooks" >Ebooks</option>
+                                <option value="Infographics" >Infographics</option>
+                                <option value="Notes" >Notes</option>
+                                <option value="Slides" >Slides</option>
+                                <option value="Videos" >Videos</option>
+                            </select>
+                        </div>
+
+                        <div className="form-group">
+                            <label > Upload Content :  </label>
+                            <input type="file" name="file-upload"></input>
+                        </div>
+
+                        <div className="form-group btn-mid">
+                           
+                            <button type="submit" name="resource title">Submit</button>
+                        </div>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
         </div>
     )
 }
-    
+
 export default ResourceCreatorContainer;

@@ -18,6 +18,8 @@ const TaskComponent = ({title}) => {
                 {title}
             </div>
 
+            
+
             {
                 !show &&
                 <button className="task-item submit" onClick={openModal}>Submit</button>}

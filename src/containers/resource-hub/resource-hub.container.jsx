@@ -29,7 +29,7 @@ class ResourceHubContainer extends React.Component {
                    </div>
                 <div>
                     <p>
-                        Get access to all the resources in the ClassSpace Ecosystem : Teacher created resources, Student Contributed Resources and Guided Learning Frameworks.
+                        Get access to all the downloadable resources in the ClassSpace Ecosystem : Teacher created resources, Student Contributed Resources and Guided Learning Frameworks.
                    </p>
 
                 </div>
