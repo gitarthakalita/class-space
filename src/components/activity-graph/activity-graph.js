@@ -1,6 +1,6 @@
 import React from 'react';
 // import * as V from 'victory';
-import { VictoryChart, VictoryAxis , VictoryTheme,
+import { VictoryChart,  VictoryTheme,
         VictoryStack, 
         VictoryLine,
         VictoryLegend} from 'victory';

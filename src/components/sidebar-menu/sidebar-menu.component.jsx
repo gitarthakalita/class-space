@@ -28,7 +28,7 @@ const SidebarMenuComponent = () => (
         <div className="sidebar-menu-item "> Task Creator </div>
         </Link>
         <div className="sidebar-menu-item strike"> Test Creator </div>
-        <div className="sidebar-menu-item ">Performence Analytics</div>
+        <div className="sidebar-menu-item strike ">Performence Analytics</div>
         <div className="sidebar-menu-item strike">Diagnostic Tests</div>
         <div className="sidebar-menu-item strike">Mock Tests</div>
         <Link to='tasks-and-events'>

@@ -16,8 +16,7 @@ thead{
 }
 tbody{
     display: table-row-group;
-
-    
+   
 }
 
 tr{
@@ -37,10 +36,31 @@ td{
     padding: 1rem;
 }
 
-// .thead-left{
-//     float: left;
-// }
 
-// .thead-right{
-//     float: right;
-// }
+.credit{
+    text-align: center;
+}
+.thead-left{
+    width: 75%;
+}
+
+.thead-right{
+    width: 15%;
+
+    
+}
+
+
+.dpt{
+    display: flex;
+    
+
+
+    .unit-id{
+        color: rgb(69, 69, 243);
+        cursor: pointer;
+        width:5rem;
+
+        margin-right: 5rem;
+    }
+}

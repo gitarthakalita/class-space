@@ -80,3 +80,25 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
+
+@media only screen and (max-width: 600px){
+
+    .base-container{
+        grid-template-columns: 1fr;
+    }
+
+    .base-item{
+        height: 100vh !important;
+    }
+    .sidebar{
+        display: none;
+    }
+
+
+    .section{
+        margin: 0;
+        padding: 0;
+    }
+}
