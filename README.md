@@ -1,3 +1,5 @@
+ClassSpace is prototype web application focused on product UI design for a hyper-niche Learning Management System build to enhance classroom experiences.
+
 this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
